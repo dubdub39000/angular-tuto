@@ -20,7 +20,7 @@ const appRoute: Routes = [
   { path: 'cart', component: CartComponent },
   { path: 'shipping', component: ShippingComponent },
   { path: 'not-found', component: FoutOhFourComponent},
-  {path: '**', redirectTo: '/not-found.Component'}
+  {path: '**', redirectTo: '/not-found'}
 ]
 
 @NgModule({
